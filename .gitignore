@@ -1,0 +1,20 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Java / Spring Boot
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/data/
+*.log
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Local database files
+*.mv.db
+*.trace.db
